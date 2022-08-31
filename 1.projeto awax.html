@@ -1,0 +1,1815 @@
+<!DOCTYPE html>
+<html lang="pt--BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title> projeto awax </title>
+</head>
+<body>
+    <!-- Cabeçario -->
+    <header>
+
+    <div class="header">
+
+         <div class="logo">
+             <div class="logoimg">
+             
+             </div>
+         </div>
+
+         <div class="menu">
+             <img onclick="clika()" class="menu-opener" src="menu.png" alt="">
+
+         <nav id="mud_display">
+             <ul>
+                 <li class="active"><a href="">Home</a></li>
+                 <li><a href="">About us</a></li>
+                 <li><a href="">services</a></li>
+                 <li><a href="">Our projects</a></li>
+                 <li><a href="">Our team</a></li>
+                 <li><a href="">Happy Clients</a></li>
+                 <li><a href="">Price</a></li>
+                 <li><a href="">Contact us</a></li>
+             </ul>
+         </nav>
+
+         
+         </div>
+
+    </div>
+
+    </header>
+    <style>
+        *{margin: 0;padding: 0;
+          box-sizing: border-box;
+         }
+        body{
+            font-family: 'Montserrat',arial,helvetica,sans-serif;
+            font-size: 13px;
+        }
+        header{
+            height: 100px;
+            background-color:black ;
+            color: white;
+
+        }
+        .header{
+            max-width: 1140px;
+            height: 100px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+        }
+        .logo{
+          width: 100px;
+        }
+        .logoimg{
+            width: 80px;
+            height: 80px;
+            background-color: #B28756;
+            border-radius: 40px;
+        }
+        .menu-opener
+        {
+           display: none;
+        }
+        .menu{
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+        }   
+        .menu ul,
+        .menu li {
+            list-style: none;
+        }
+        .menu ul{
+            display: flex;
+        }
+        .menu ul a{
+            color: white;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-decoration: none;
+            padding-left: 5px;
+            padding-right: 10px;
+            display: flex;
+            align-items: center;
+            height: 100px;
+            border-bottom: 5px solid black;
+        }
+        .menu li a:hover
+        ,.menu .active a{
+            border-bottom: 5px solid #B28756;
+            color: #ccc;
+        }
+        
+    </style>
+    <!-- Menu -->
+    <main>
+
+        <section class="banner">
+            <div class="sliders" style="margin-left: 0vw;">
+
+                <div class="slide">
+                  <div class="slidearea">
+                      <h1>DESIGN IS ABOUT <br> <span> COMUNICATION </span></h1>
+                      <h2>Call Us: +00 0 1234 5678</h2>
+                      <a class="button" href="">Get in touch!</a>
+                  </div>
+                </div>
+
+                <div class="slide">
+                  <div class="slidearea" >
+                    <h1>DESIGN IS ABOUT <br> <span> Texte </span></h1>
+                    <h2>Call Us: +00 0 1234 5678</h2>
+                    <a class="button" href="" >Get in touch!</a>
+                  </div>
+                </div>
+
+                <div class="slide">
+                    <div class="slidearea">
+                        <h1>DESIGN IS ABOUT <br> <span> Augo </span></h1>
+                        <h2>Call Us: +00 0 1234 5678</h2>
+                        <a class="button" href="">Get in touch!</a>
+                    </div>
+                </div>
+
+            </div>
+
+             <div class="sliders-pointers act">
+                <div class="pointer active"></div>
+                <div class="pointer"></div>
+                <div class="pointer"></div>
+             </div>
+
+            
+
+        </section>
+        <section class="default light"><!--( default = padrão )-->
+
+            <div class="section_title">
+                About Us
+            </div>
+            <div class="section_desc">
+                Who  we are ?
+            </div>
+            <div class="section_body">
+                <div class="section_about_us">
+                     <div class="section_about_us_left">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                         <br/>
+                        <a href="" class="button"> Learn More </a>
+                     </div>
+                     <div class="section_about_us_right">
+                         <img src="foto9.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="default dark"><!--( default = padrão )-->
+
+            <div class="section_title">
+                Services
+            </div>
+            <div class="section_desc">
+                Services that we provide
+            </div>
+            <div class="section_body">
+                 <div class="section_services">
+                     <div class="section_service">
+                         <img src="medalha.png" alt="">
+                         <h4>High Quality Design</h4>
+                         <p>Page when looking</p>
+                     </div>
+                     <div class="section_service">
+                         <img src="estrela.png" alt="">
+                         <h4>Modern Design</h4>
+                        <p>Mobi ex feils, tincidunt sed hendrerid</p>
+                     </div>
+                     <div class="section_service">
+                         <img src="relogio.png" alt="">
+                         <h4>Regular Upddates</h4>
+                         <p>Donec tincidunt cursos</p>
+                     </div>
+                     <div class="section_service">
+                         <img src="balao.png" alt="">
+                         <h4>Fast and free support</h4>
+                         <p>Page tincidut,SUPPORT </p>
+                     </div>
+                 </div>
+            </div>
+
+        </section>
+        <section class="default light"><!--( default = padrão )-->
+
+            <div class="section_title">
+                Our Projects 
+            </div>
+            <div class="section_desc">
+                What we create
+            </div>
+            <div class="section_body">
+                <div class="section_projects">
+
+                     <div class="section_projects_filters">
+                         <ul>
+                             <li>all</li>
+                             <li class="active">Photos</li>
+                             <li>Breanding</li>
+                             <li>Adverts</li>
+                             <li>Development</li>
+                             <li>Misc</li>
+
+                         </ul>
+ 
+                     </div>
+
+                     <div class="section_projects_photos">
+
+                       <div class="section_projects_photo">
+                            <div class="section_projects_photoarea">
+                                <div class="section_projects_photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <P>vestibulum porta aliquest risus</P>
+                                </div>
+                                <img src="foto1.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="section_projects_photo">
+                            <div class="section_projects_photoarea">
+                                <div class="section_projects_photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <P>vestibulum porta aliquest risus</P>
+                                </div>
+                                <img src="foto2.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="section_projects_photo">
+                            <div class="section_projects_photoarea">
+                                <div class="section_projects_photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <P>vestibulum porta aliquest risus</P>
+                                </div>
+                                <img src="foto3.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="section_projects_photo">
+                            <div class="section_projects_photoarea">
+                                <div class="section_projects_photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <P>vestibulum porta aliquest risus</P>
+                                </div>
+                                <img src="foto4.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="section_projects_photo">
+                            <div class="section_projects_photoarea">
+                                <div class="section_projects_photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <P>vestibulum porta aliquest risus</P>
+                                </div>
+                                <img src="foto5.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="section_projects_photo">
+                            <div class="section_projects_photoarea">
+                                <div class="section_projects_photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <P>vestibulum porta aliquest risus</P>
+                                </div>
+                                <img src="foto6.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="section_projects_photo">
+                            <div class="section_projects_photoarea">
+                                <div class="section_projects_photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <P>vestibulum porta aliquest risus</P>
+                                </div>
+                                <img src="foto1.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="section_projects_photo">
+                            <div class="section_projects_photoarea">
+                                <div class="section_projects_photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <P>vestibulum porta aliquest risus</P>
+                                </div>
+                                <img src="foto2.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="section_projects_photo">
+                            <div class="section_projects_photoarea">
+                                <div class="section_projects_photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <P>vestibulum porta aliquest risus</P>
+                                </div>
+                                <img src="foto3.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="section_projects_photo">
+                            <div class="section_projects_photoarea">
+                                <div class="section_projects_photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <P>vestibulum porta aliquest risus</P>
+                                </div>
+                                <img src="foto4.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="section_projects_photo">
+                            <div class="section_projects_photoarea">
+                                <div class="section_projects_photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <P>vestibulum porta aliquest risus</P>
+                                </div>
+                                <img src="foto5.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="section_projects_photo">
+                            <div class="section_projects_photoarea">
+                                <div class="section_projects_photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <P>vestibulum porta aliquest risus</P>
+                                </div>
+                                <img src="foto6.jpg" alt="">
+
+                            </div>
+                        </div>
+                       
+                              <a href="" id="but" class="button">more projects</a>
+                     </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section class="default dark bg_tean"><!--( default = padrão )-->
+
+            <div class="section_tean_area">
+              <div class="section_title">
+                 Our Team
+              </div>
+              <div class="section_desc">
+                 Our Co-workers
+              </div>
+
+                    <div class="section_body">
+
+                        <div class="section_tean">
+
+                                <div class="slides" style="margin-left: 0px;">
+                                
+                                  <div class="slider">
+                                    <div class="slide_area">
+                                       <img class="section_tean_avatar" src="mulher1.png" alt="">
+                                       <div class="section_tean_name">Jane Doe</div>
+                                       <div class="section_tean_role">Master Mind</div>
+                                       <div class="section_tean_social">
+                                       <a href=""><img src="facebook.png" alt=""></a>
+                                       <a href=""><img src="googleplus.png" alt=""></a>
+                                       <a href=""><img src="linkedin.png" alt=""></a>
+                                       <a href=""><img src="pinterest.png" alt=""></a>
+                                       <a href=""><img src="twitter.png" alt=""></a>
+                                       </div>
+                                    </div>
+                                  </div>
+              
+                                  <div class="slider">
+                                    <div class="slide_area" >
+                                        <img class="section_tean_avatar" src="homem1.png" alt="">
+                                        <div class="section_tean_name">Mick Chillen</div>
+                                        <div class="section_tean_role">creative head</div>
+                                        <div class="section_tean_social">
+                                        <a href=""><img src="facebook.png" alt=""></a>
+                                        <a href=""><img src="googleplus.png" alt=""></a>
+                                        <a href=""><img src="linkedin.png" alt=""></a>
+                                        <a href=""><img src="pinterest.png" alt=""></a>
+                                        <a href=""><img src="twitter.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                  </div>
+              
+                                  <div class="slider">
+                                   <div class="slide_area">
+                                    <img class="section_tean_avatar" src="mulher2.png" alt="">
+                                    <div class="section_tean_name">Anna Jhons</div>
+                                    <div class="section_tean_role">Technical Lead</div>
+                                    <div class="section_tean_social">
+                                    <a href=""><img src="facebook.png" alt=""></a>
+                                    <a href=""><img src="googleplus.png" alt=""></a>
+                                    <a href=""><img src="linkedin.png" alt=""></a>
+                                    <a href=""><img src="pinterest.png" alt=""></a>
+                                    <a href=""><img src="twitter.png" alt=""></a>
+                                    </div>
+                                   </div>
+                                  </div>
+      
+                                  <div class="slider">
+                                   <div class="slide_area">
+                                    <img class="section_tean_avatar" src="mulher1.png" alt="">
+                                    <div class="section_tean_name">Jane Doe</div>
+                                    <div class="section_tean_role">Master Mind</div>
+                                    <div class="section_tean_social"></div>
+                                    <a href=""><img src="facebook.png" alt=""></a>
+                                    <a href=""><img src="googleplus.png" alt=""></a>
+                                    <a href=""><img src="linkedin.png" alt=""></a>
+                                    <a href=""><img src="pinterest.png" alt=""></a>
+                                    <a href=""><img src="twitter.png" alt=""></a>
+                                   </div>
+                                  </div>
+
+                                </div> 
+
+                        </div>  
+
+
+                    </div>   
+                    
+                                  <div class="sliders_pointers">
+                                    <div class="pointer active"></div>
+                                    <div class="pointer"></div>
+                                    <div class="pointer"></div>
+                                  </div>
+
+            </div>  
+            
+       
+
+
+        </section>
+        <section class="default light zone">
+
+            <div class="area">
+
+                <h1 class="titu">Happy cliens</h1>
+                <h4 class="titu2">client reviews</h4>
+                <img class="man_img" src="homem2.png" alt="">
+                <h1 class="name">John Doe</h1>
+                <h4 class="info_name">head of pr departmant</h4>
+                <p class="simbo">§§</p>
+                <p class="text-info">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                
+                <div class="sliders-pointers2">
+                   <div class="pointt activee"></div>
+                   <div class="pointt"></div>
+                   <div class="pointt"></div>
+                </div>
+               
+
+            </div>
+
+
+        </section>
+        <section id="dl" class="default light"><!--( default = padrão )-->
+             <div class="rolage_images">
+                <img class="ic" src="empresa1.png" alt="">
+                <img class="ic" src="empresa2.png" alt="">
+                <img class="ic" src="empresa3.png" alt="">
+                <img class="ic" src="empresa4.png" alt="">
+                <img class="ic" src="empresa5.png" alt="">
+                <img class="ic" src="empresa6.png" alt="">
+             </div>
+        </section>
+        <section class="default light zone">
+
+            <div class="area">
+
+                <h1 class="titu">Price</h1>
+                <h4 class="titu2">Pricing table</h4>
+               
+                <div class="area_preço">
+                    <div class="preço">
+                        <h4 class="titu_price">Express</h4>
+                        <h3 class="price">$ 9.99 </h3>
+                        <h4 class="info_price"> /mounch </h4>
+                        <p class="type_price">tracking issues</p>
+                        <p class="type_price">tracking issues</p>
+                        <p class="type_price">tracking issues</p>
+                        <p class="type_price">tracking issues</p>
+
+                        <a href="" class="but_price">chose</a><!--chose=escolher-->
+
+                    </div>
+                    <div class="preço">
+                        <h4 class="titu_price">Express</h4>
+                        <h3 class="price">$ 9.99 </h3>
+                        <h4 class="info_price"> /mounch </h4>
+                        <p class="type_price">tracking issues</p>
+                        <p class="type_price">tracking issues</p>
+                        <p class="type_price">tracking issues</p>
+                        <p class="type_price">tracking issues</p>
+
+                        <a href="" class="but_price">chose</a><!--chose=escolher-->
+
+                    </div>
+                    <div class="preço">
+                        <h4 class="titu_price">Express</h4>
+                        <h3 class="price">$ 9.99 </h3>
+                        <h4 class="info_price"> /mounch </h4>
+                        <p class="type_price">tracking issues</p>
+                        <p class="type_price">tracking issues</p>
+                        <p class="type_price">tracking issues</p>
+                        <p class="type_price">tracking issues</p>
+
+                        <a href="" class="but_price">chose</a><!--chose=escolher-->
+
+                    </div>
+                    <div class="preço">
+                        <h4 class="titu_price">Express</h4>
+                        <h3 class="price">$ 9.99 </h3>
+                        <h4 class="info_price"> /mounch </h4>
+                        <p class="type_price">tracking issues</p>
+                        <p class="type_price">tracking issues</p>
+                        <p class="type_price">tracking issues</p>
+                        <p class="type_price">tracking issues</p>
+
+                        <a href="" class="but_price">chose</a><!--chose=escolher-->
+
+                    </div>
+
+                    
+
+                </div>
+               
+
+            </div>
+
+
+        </section>
+        <section class="default light">
+
+            <div class="area_livro" >
+
+                <h1 class="titu">Premium</h1>
+                <h4 class="titu2">even more features available</h4>
+                
+                <div id="area_premium">
+                    <div class="img_premiun">
+                        <img src="livros.png" alt="">
+                    </div>
+                    <div class="info_premiun">
+                         <div class="info">
+                             <h1 class="titu_book"> <img title="image" class="ico-img" src="check.png"> first feature</h1>
+                             <p class="text-book">It is a long established fact that a reader will be <br> distracted by the readable content <br> of a page when looking at its layout.</p>
+                               <ul class="list_book">
+                                   <li id="list" class="list">feature one</li>
+                                   <li id="list" class="list">feature two</li>
+                                   <li id="list" class="list">feature three</li>
+
+                               </ul>
+                         </div>
+                         <div class="info">
+                             <h1 class="titu_book"><img title="image" class="ico-img" src="check.png" alt=""> second feature</h1>
+                             <p class="text-book">It is a long established fact that a reader will be <br> distracted by the readable content <br> of a page when looking at its layout.</p>
+
+                         </div>
+                         <div class="info">
+                             <h1 class="titu_book"> <img title="image" class="ico-img" src="check.png"> third feature</h1>
+                             <p class="text-book">It is a long established fact that a reader will be <br> distracted by the readable content <br> of a page when looking at its layout.</p>
+                         </div>
+
+                        
+
+                    </div>
+ 
+                </div>
+                         <div id="pi" class="sliders-pointers2">
+                        <div class="pointt activee"></div>
+                        <div class="pointt"></div>
+                        <div class="pointt"></div>
+                        </div>
+
+            </div>
+
+        </section>
+        <section class="default dark"><!--( default = padrão )-->
+
+            <div class="section_title">
+                some factores
+            </div>
+            <div class="section_desc">
+                about our work
+            </div>
+            <div class="section_body">
+                 <div  class="section_services">
+                     <div id="ce" class="section_service">
+                         <h1 class="number_gold">1000</h1>
+                         <div class="bord_gold"></div>
+                         <h4>design projects released</h4>
+                         <p>dorec tindidunt cursos</p>
+                     </div>
+                     <div id="ce" class="section_service">
+                        <h1 class="number_gold">900</h1>
+                        <div class="bord_gold"></div>
+                         <h4>photos</h4>
+                        <p>Mobi ex feils, tincidunt sed hendrerid</p>
+                     </div>
+                     <div id="ce" class="section_service">
+                        <h1 class="number_gold">500</h1>
+                        <div class="bord_gold"></div>
+                         <h4>marketing ideas</h4>
+                         <p>Donec tincidunt cursos</p>
+                     </div>
+                     <div id="ce" class="section_service">
+                        <h1 class="number_gold">100</h1>
+                        <div class="bord_gold"></div>
+                         <h4>exhibitions</h4>
+                         <p>Page tincidut,SUPPORT </p>
+                     </div>
+                 </div>
+            </div>
+
+        </section>
+        <section id="mmg" class="default light"><!--( default = padrão )-->
+            <div class="redes_images">
+               <div id="aa" class="red"><img  class="ii" src="share.png" alt=""></div><p class="n">tell abolt us:</p>
+               <div id="bb"class="red"><img  class="ii" src="twitter.png" alt=""></div><p class="n">152</p>
+               <div id="cc"class="red"><img  class="ii" src="linkedin.png" alt=""></div><p class="n">153</p>
+               <div id="dd"class="red"><img  class="ii" src="facebook.png" alt=""></div><p class="n">154</p>
+               <div id="ee"class="red"><img  class="ii" src="googleplus.png" alt=""></div><p class="n">155</p>
+               <div id="ff"class="red"><img  class="ii" src="pinterest.png" alt=""></div><p class="n">156</p>
+            </div>
+        </section>
+        <section id="all" class="default light"><!--( default = padrão )-->
+
+        <div class="section_title">
+            Contact us
+        </div>
+        <div id="s_f" class="section_formulary">
+        our agency located in Melbourn Australia 
+        </div>
+        <div class="section_body_formulary">
+          
+            <div class="name_email">
+               <input value="name" type="text">
+               <input value="Email" type="email">
+            </div>
+            <div class="subject">
+                <input id="sub" value="subject" type="">
+            </div>
+            <div class="mensage">
+                <input id="men" value="Messade" type="text">
+            </div>
+
+              <a  class="button" href="">Send Mensage</a>
+        </div>
+
+        </section>
+        <section class="section-map">
+
+            <section class="section-map--area">
+                 <div class="section-map--info">
+                     <div class="section-map--info-item">
+
+                        <div class="section-map--info-item-img">
+                           <img src="carta.png" alt="">                         
+                        </div>
+                            endereço completão que irá ter algum tamanho
+                     </div>
+                     <div class="section-map--info-item">
+
+                        <div class="section-map--info-item-img">
+                           <img src="localizacao.png" alt="">                         
+                        </div>
+                            endereço completão que irá ter algum tamanho
+                     </div>
+                     <div class="section-map--info-item">
+
+                        <div class="section-map--info-item-img">
+                           <img src="telefone.png" alt="">                         
+                        </div>
+                            endereço completão que irá ter algum tamanho
+                     </div>
+                     <div class="section-map--info-item">
+
+                        <div class="section-map--info-item-img">
+                           <img src="arroba.png" alt="">                         
+                        </div>
+                            endereço completão que irá ter algum tamanho
+                     </div>
+                     <div class="section-map--info-item">
+
+                        <div class="section-map--info-item-img">
+                           <img src="web.png" alt="">                         
+                        </div>
+                            endereço completão que irá ter algum tamanho
+                     </div>
+                 </div>
+            </section>
+
+        </section>
+
+    </main>
+    <!-- style 1 -->
+    <style>   
+
+        .banner{
+            height: calc(100vh - 100px);
+            background-color: #333;
+            background-image: url('../modulo7-projetoawax/bg.jpg');
+            font-size: cover;
+            background-position: bottom;
+            overflow: hidden;
+            
+        }
+        .banner .sliders{
+              width: 1000vw;   
+              height: 100%;   
+                      
+        }
+        .banner .slide{
+              width: 100vw;
+              height: 100%;
+              display: inline-block;
+              background-color: rgba(0,0,0,0.8);
+        }
+        .banner .slidearea{
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+
+        }
+        .banner h1{
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 50px;
+        }
+        .banner h1 span{
+            color: #B28756;
+        }
+        .banner h2{
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+        .banner .sliders-pointers{
+            width: 100vw;
+            height: 20px;
+            position: absolute;          
+            display: flex;
+            justify-content: center;
+            align-items:center;
+
+        }
+        .banner .pointer {
+            width: 15px;
+            height: 15px;
+            border: 2px solid #B28756;
+            border-radius: 8px;
+            margin-top: -170px;
+            margin-left: 5px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        .banner .pointer.active {
+            background-color: #B28756;
+        }
+
+    </style>
+    <!-- style 2 -->
+    <style>
+        body{
+            overflow-x: hidden;/* (vai retirar a barra horizontal) */
+        }
+        .default{
+            width: 100vw;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .default .section_title,
+        .default .section_desc{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .default .section_title{
+            font-size: 20px;
+            font-weight: 13px;
+        }
+        .default .section_desc{
+            font-size: 12px;
+            color: #ccc;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+        .default .section_body{
+            max-width: 1140px;
+            margin: auto;
+            min-height: 100px;
+            
+        }
+        .default.light{
+            background-color: #F7F7F7;
+        }
+        .default.light .default_title,
+        .default.light .section_body{
+            color: black;
+        }
+        .default.dark{
+            background-color: black;
+        }
+        .default.dark .section_title,
+        .default.dark .section_body{
+            color: white;
+        }
+        /* css areas especificas */
+
+        .section_about_us{
+            display: flex;
+        }
+        .section_about_us_left{
+            flex: 1;
+            padding: 10px;
+        }
+        .section_about_us_left p{
+            font-size: 14px;
+            line-height: 28px;
+            font: normal 13pt arial;
+            color: rgb(75, 74, 74);
+        }
+        .section_about_us_right{
+            width: 500px;
+            text-align: center;
+        }
+        .section_about_us_right img{
+            width: 480px;
+            box-shadow: 0px 5px 10px;
+        }
+        .button{
+            display: inline-block;
+            background-color: #B28756;
+            color: white;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 10px 30px;
+            margin-top: 30px;
+            border-radius: 20px;
+        }
+        .section_services{
+         display: flex;
+        }
+        .section_service{
+         flex: 1;
+         text-align: center;
+         border-right: 1px solid #333;
+         padding: 5px;
+        }
+        .section_service:first-child{
+            border-left: 1px solid #333;
+        }
+        .section_service h4{
+            margin-top:20px ;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+        .section_service p{
+            margin-top: 10px;
+            font-size: 13px;
+            color: #999;
+
+        }
+
+
+    </style>
+    <!-- style 3 -->
+    <style>
+        .section_projects{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section_projects_filters{
+            border: 1px solid #ccc;
+            background-color: #EEE;
+            border-radius: 30px;
+            display: inline-block;
+            padding: 0px 20px;
+        }
+        .section_projects_filters ul,
+        .section_projects_filters li{
+            list-style: none;
+        }
+        .section_projects_filters li{
+            display: inline-block;
+            padding: 10px;
+            text-transform: uppercase;
+            font-size: 13px;
+            border-left: 1px solid #DDD;
+            color: #555;
+            border-bottom: 3px solid #EEE;
+            cursor: pointer;
+        }
+        .section_projects_filters li:hover,
+        .section_projects_filters li.active{
+            border-bottom: 3px solid #B28756;
+        }
+        .section_projects_filters li:first-child{
+            border-left: 0;          
+        }
+        .section_projects_photos{
+            width: 100vw;
+            max-width: 1140px;
+            margin-top: 20px;
+            background-color: rgb(233, 233, 233);
+            display: flex;
+            flex-wrap: wrap;/* caso se não couber na linha está permitido de quebrar e ir para prixima*/
+            justify-content: center;
+        }
+        .section_projects_photo{
+            width: 280px;
+        }
+        .section_projects_photoarea{
+            margin: 10px;
+            width: 260px;
+            height: 160px;
+        }
+        .section_projects_photoarea img{
+            width: inherit;
+            height: inherit;
+        }
+        .section_projects_photoinfo{
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.507);
+            width: inherit;
+            height: inherit;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .section_projects_photoinfo h5{
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .section_projects_photoarea:hover .section_projects_photoinfo{
+            display: flex;
+        }
+        #but{
+            margin: 8px;
+        }
+
+        
+
+    </style>
+    <!-- style 4 -->
+    <style>
+
+        .bg_tean{
+           background-image: url('../modulo7-projetoawax/bg.jpg');
+           background-size: cover;
+           background-position: center;
+           padding: 0;
+
+        }
+        .section_tean_area{
+            background-color: rgba(0, 0, 0, 0.8);
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .section_tean{
+            overflow: hidden;
+            max-width: 880px;
+            margin:auto;
+        }
+        .slides{
+              width: 1000vw;   
+              height: 100%;           
+        }
+        .slider{
+              width: 280px;
+              height: 100%;
+              min-height: 300px;
+              display: inline-block;
+              background-color: rgba(255, 255, 255, 0.897);
+              margin-right: 20px;
+              
+        }
+        .slide_area{
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            padding: 30px;
+
+        }
+        .section_tean_area .sliders_pointers{
+            margin-top: 30px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        .section_tean_area .pointer {
+            width: 15px;
+            height: 15px;
+            border: 2px solid #B28756;
+            border-radius: 8px;
+            margin-left: 5px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        .section_tean_area .pointer.active {
+            background-color: #B28756;
+        }
+        .section_tean_avatar{
+             width: 100px;
+             height: auto;
+        }
+        .section_tean_name{
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 17px;
+            margin-top: 30px;
+
+        }
+        .section_tean_role{
+           font-size: 14px;
+           color: #999;
+           margin-top: 5px;
+        }
+        .section_tean_social{
+           display: flex;
+           margin-top: 20px;
+        }
+        .section_tean_social a{
+           display: inline-flex;
+           justify-content: center;
+           align-items: center;
+           width: 25px;
+           height: 25px;
+           background-color: #ccc;
+           border-radius: 13px;
+           margin-right: 10px;
+        }
+        .section_tean_social a:hover{
+            background-color: #B28756;
+        }
+        
+
+    </style>
+    <!--style 5-->
+    <style>
+           .default.light.zone{
+            display: flex;
+            justify-content: center;
+            background-color: rgb(232, 232, 231);
+        }
+        .area{
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             width: 700px;
+             height: 500px;
+        }
+        .titu{
+            text-align: center;
+            text-transform: uppercase;
+            font: 16pt arial;
+            font-weight:bold;
+            margin: 5px;
+        }
+        .titu2{
+            text-align: center;
+            text-transform: uppercase;
+            font: 10pt arial;
+            font-weight: bold;
+            color:#999;
+            margin: 5px;
+        }
+        .man_img{
+            width: 125px;
+            height: 125px;
+            margin: 10px;
+        }
+        .name{
+            font-weight: bold;
+            font: 16pt arial;
+        }
+        .info_name{
+            text-align: center;
+            text-transform: uppercase;
+            font: 10pt arial;
+            font-weight: bold;
+            color:#999;
+            margin: 5px;
+        }
+        .text-info{
+            text-align: center;
+            text-transform: uppercase;
+            font: 11pt arial;
+            font-weight: bold;
+            color:#999;
+            margin: 15px;
+        }
+        .simbo{
+            font: 20pt arial;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.61);
+            margin: 10px;
+        }
+        .sliders-pointers2{
+
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+
+        }
+        .pointt{
+            border:1px solid #B28756;
+            border-radius: 30px;
+            width: 15px;
+            height: 15px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .pointt.activee{
+            background-color: #B28756;
+        }
+      
+       
+    
+    </style>
+    <!--style 6-->
+    <style>
+        #dl{
+            display: flex;
+            justify-content: center;
+
+        }
+        .rolage_images{
+            display: flex;
+        }
+        .ic{
+            margin: 40px;
+            width: 80px;
+        }
+    </style>
+    <!--style 7-->
+    <style>
+        .area_preço{
+           display: flex;
+        }
+        .preço{
+            background-color: white;
+            width: 300px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            margin: 20px;
+        }
+        .titu_price{
+             font:bold 18px arial;
+             margin: 15px;
+        }
+        .price{
+            font:bold 30px arial;
+        }
+        .info_price{
+            text-transform:uppercase;
+            color: rgb(209, 209, 209);
+            margin: 4px;
+        }
+        .type_price{
+            font: normal 15pt arial;
+            margin: 12px;
+            color: #999;
+        }
+        .but_price{
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            background-color: black;
+            padding: 10px;
+            width: 150px;
+            border-radius: 30px;
+            margin-left: 25%;
+            margin-top:20px;
+        }        
+
+    </style>
+    <!--style 8-->
+    <style>
+        #area_premium{
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+        border-bottom: 1px solid #999;
+        padding-bottom: 60px;
+        }
+        .img_premiun{
+        margin: 10px;
+        }
+        .info_premiun{
+        margin: 10px;
+        }
+        .info{
+
+        }
+        .titu_book{
+            text-transform: uppercase;
+            font: 18pt arial;
+            font-weight: bold;
+            margin: 10px;
+        }
+        .text-book{
+            font-weight: bold;
+            font: 13pt arial;
+            color: #999;
+            margin-left: 40px;
+        }
+        .list_book{
+            font-weight: bold;
+            font: 14pt arial;
+            color: #999;
+            list-style:circle;
+            margin: 10px;
+            margin-left: 70px;
+        }
+        #list{
+            margin: 5px;
+        }
+        .ico-img{
+            width: 25px;
+        }
+
+    </style>
+    <!--style 9-->
+    <style>
+        .number_gold{
+            color: #B28756;
+            font-size: 45px;
+            
+            
+        }
+        .bord_gold{
+          background-color: #B28756;
+          width: 50px;
+          height: 5px;
+        }
+        
+        #ce{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            border: none;
+        }
+        
+
+        /*redes*/
+        #mmg{
+            padding: 20px;background-color: #FFFF;
+        }
+        .redes_images{
+           display: flex;
+           justify-content: center;
+        }
+        .red{
+            display: flex;
+            text-align: center;
+            background-color: #a61b26;
+            border-radius: 20px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .ii{ 
+
+            text-align: center;
+            width: 20px;
+            height:20px;
+        }
+        .n{
+            font: 19px arial;
+            color:#999;
+            margin-top: 16px;
+        }
+        #aa{
+           background-color: rgba(255, 255, 255, 0);
+           margin: 10px;
+        }
+        #bb{
+           background-color: #2cbce9;
+           margin: 10px;
+        }        
+        #cc{
+           background-color: #226eaa;
+           margin: 10px;
+        }        
+        #dd{
+            background-color: #2b5789;
+            margin: 10px;
+            
+        }
+        #ee{
+            background-color: #e23a34 ;
+            margin: 10px;
+            
+        }
+        #ff{
+            background-color: #a61b26;
+            margin: 10px;
+        }
+    </style>
+    <!--style 10-->
+    <style>
+        .name_email{
+          display: flex;
+        }
+        .subject{
+            display: flex;
+            justify-self: center;
+        }
+        .mensage{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        #sub{
+            width: 600px;
+        }
+        #men{
+         height: 100px;
+         width: 600px;
+        }
+        
+        .section_body_formulary{
+            margin: 40px;
+           
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 300px;
+        }
+        input{
+            border: #999;
+            border-bottom:1px solid gray;
+            background-color:rgb(247, 247, 247);
+            margin: 5px;
+            width: 300px;
+            height: 80px;
+            outline: none;
+        }
+  
+        [value="Email"],
+        [value="name"],
+        [value="subject"],
+        [value="Messade"]{
+            color: gray;
+           
+        }
+
+        #s_f{
+            text-align: center;
+            margin: 5px;
+        }
+        
+
+    </style>
+    <!--style 11-->
+    <style>
+        .section-map
+        {
+            background-image: url(../modulo7-projetoawax/mapa.jpg);
+            background-size: cover;
+            background-position: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .dection-map--area
+        {
+            width: 100vw;
+            max-width: 1140px;
+            margin: auto;
+        }
+        .section-map--info
+        {
+            width: 50%;
+            padding: 30px;
+            background-color: #FFF;
+            color: #000;
+        }
+        .section-map--info-item
+        {
+            display: flex;
+            align-items: center;
+            color: #999;
+            margin-bottom: 10px;
+        }
+        .section-map--info-item-img 
+        {
+            width: 30px;
+            height: 30px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            background-color: #999;
+            border-radius: 15px;
+            margin-right: 15px;
+        }
+        .section-map--info-item-img img
+        {
+            width: 15px ;
+            height: auto;
+        }
+    </style>
+    <!-- Rodapé -->
+    <footer>
+
+       <div class="rodape_top">
+        
+            <div class="divisoria">
+
+                <div><p>^</p></div>
+
+            </div>
+            <div class="icons">
+                 <div>
+                    <a href=""><img src="facebook.png" alt=""></a>
+                    <a id="marki" href=""><img src="googleplus.png" alt=""></a>
+                    <a href=""><img src="linkedin.png" alt=""></a>
+                    <a href=""><img src="pinterest.png" alt=""></a>
+                    <a href=""><img src="twitter.png" alt=""></a>
+                 </div>
+                 <div required>
+                  AWAX &copy; 2016
+                 </div>
+            </div>
+            <div class="text_fooder">
+               <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure</p>
+            </div>
+            <div class="camp_email">
+                 <div>
+                     <input id="rodap_email" type="email" placeholder="Email to Subscribe">
+                     <a id="but_email_rodap" class="button" href="">Subscribe</a>
+                 </div>
+            </div>
+
+       </div>
+       <div class="rodape_down">
+          <div>
+              ADDITIONAL
+          </div>
+       </div>
+
+    </footer>
+    <style>
+
+        footer
+        {
+            background-color: #000;
+            display: flex;
+            flex-direction: column;
+        }
+     
+     .rodape_top
+     {
+       width: 100%;
+       height: 300px;
+       border-bottom: 2px solid white;
+       padding: 5px;
+       display: flex;
+       justify-content: center;
+     }
+     .rodape_down
+     {
+        width: 100%;
+        padding: 5px;
+     }
+
+     .divisoria
+     {
+     height: 100%;
+     margin-top: -30px;
+     margin-right: 30px;
+     }
+     .divisoria div
+     {
+         background-color:#B28756;
+         width: 50px;
+         height: 50px;
+         border-radius: 100px;
+         display: flex;
+         justify-content: center;
+     }
+     .divisoria div p
+     {
+         font: normal 40pt smaller;color: white;padding: 0;margin: 0;
+     }
+     .icons
+     {
+      height: 100%;
+      margin: 30px;
+     }
+     .icons div
+     {
+         display: flex;
+         height: 70%;
+         margin: 10px;
+     }
+
+     .icons div a
+     {
+      border-radius: 30px;
+      background-color: #37393e;
+      margin: 5px;
+      width: 32px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+     }
+     #marki
+     {
+         background-color: #B28756;
+     }
+     .icons div a:hover
+     {
+      background-color: gray;
+     }
+     .icons div a img
+     {
+        padding: 5px;
+     }
+
+     .icons div[required]
+     {
+       height: 20%;
+       color:white;
+       font: normal 14pt arial;
+     }
+     .text_fooder
+     {
+      height: 100%;
+      color: rgb(141, 140, 140);
+      font: normal 10pt arial;
+      width: 600px;
+      padding: 15px;
+     }
+     .camp_email 
+     {
+      height: 100%;
+     }
+     .camp_email div
+     {
+         background-color: rgb(56, 56, 56);
+         width: 300px;
+         height: 150px;
+         display: flex;
+         flex-direction: column;
+         margin: 30px;
+         padding: 10px;
+         
+     }
+     #rodap_email
+     {
+         background-color: rgb(56, 56, 56);
+         width: 200px;
+         margin-left: 40px;
+         border-bottom: 2px solid white;
+     }
+     #but_email_rodap
+     {
+         width: 130px;
+         margin-left: 70px;
+     }
+        .rodape_down
+        {
+            height: 300px;
+        }
+        .rodape_down div
+        {
+            color: white;
+            font: normal 50pt smaller;
+            margin-top: 210px;
+            margin-left: 100px;
+        }
+
+    </style>
+  
+
+  <!-- responsividade -->
+    <script>
+
+        function clika(){
+           let muda = document.getElementById('mud_display');
+
+           const display = muda.style.display 
+
+           if( display == 'none' )
+           {
+              muda.style.display = 'flex' ;
+           }
+           else
+           {
+              muda.style.display = 'none' ;
+           }
+
+        }
+        
+
+    </script>
+
+    <style>
+        @media (min-width: 450px) and (max-width: 800px)
+        {
+            .logo
+            {
+                margin-left: 30px;
+            }
+            .menu-opener{
+                width: 45px;
+                margin-right: 30px;
+                display: block;
+                cursor: pointer;
+            }
+            nav
+            {
+               display: none;
+               position: absolute;
+               z-index: 99;
+               background-color: rgba(0, 0, 0, 0.9);
+               width: 70vw;
+               height: calc(100vh - 100px);
+               top: 100px;
+               right: 0;
+               
+            }
+            .menu ul 
+            {
+                flex-direction: column;
+            }
+            .menu li a
+            {
+                  font-weight: bold;
+                  height: 80px;
+                  font-size: 27px;
+                  margin-left: 50px;
+                  border: 0;
+            }
+            .menu li.active a
+            {
+                border: 0;
+                color: #B28756;
+            }
+            .section_about_us
+            {
+                flex-direction: column;
+            }
+            .section_about_us_left
+            {
+                 margin-left: 30px;
+                 margin-right: 30px;
+                 margin-bottom: 30px;
+            }
+            .section_about_us_right
+            {
+                width: auto;               
+            }
+            .section_services
+            {
+                flex-wrap: wrap;
+            }
+            .section_service
+            {
+                min-width: 50%;
+                margin-bottom: 30px;
+            }
+            .section_service:first-child
+            {
+                border-left: 0;
+            }
+            .section_tean
+            {
+                max-width: 580px;
+            }
+            .section-map
+            {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            .section-map--info
+            {
+                width: auto;
+
+            }
+            .section-map--info-item
+            {
+                margin-bottom: 20px;
+            }
+            .section-map--info-item:last-child
+            {
+                margin-bottom: 0;
+            }
+          
+
+
+                          
+        }
+    </style>
+
+    <style>
+         @media (max-width: 450px)
+        {
+            .logo
+            {
+                margin-left: 30px;
+            }
+            .menu-opener{
+                width: 45px;
+                margin-right: 30px;
+                display: block;
+                cursor: pointer;
+            }
+            nav
+            {
+               display: none;
+               position: absolute;
+               z-index: 99;
+               background-color: rgba(0, 0, 0, 0.9);
+               width: 70vw;
+               height: calc(100vh - 100px);
+               top: 100px;
+               right: 0;
+               
+            }
+            .menu ul 
+            {
+                flex-direction: column;
+            }
+            .menu li a
+            {
+                  font-weight: bold;
+                  height: 60px;
+                  font-size: 20px;
+                  margin-left: 30px;
+                  border: 0;
+            }
+            .menu li.active a
+            {
+                border: 0;
+                color: #B28756;
+            }
+            .banner h1{
+                font-size: 30px;
+            }
+            .banner h2{
+                font-size: 17px;
+            }
+            .section_about_us
+            {
+                flex-direction: column;
+            }
+            .section_about_us_right{
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+            .section_about_us_right img{
+                width: 100%;
+            }
+            .section_service{
+                min-width: 100%;
+            }
+            .section_projects_filters{
+                margin-left: 30px;
+                margin-left: 30px;
+            }
+            .section_projects_photo{
+                width: 300px;
+                height: 190px;
+            }
+            .section_tean{
+                max-width: 200px;
+            }
+            .section-map{
+                padding: 0;
+                padding-bottom: 280px;
+            }
+            
+        }    
+    </style>
+
+</body>
+</html>
